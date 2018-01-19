@@ -1,0 +1,28 @@
+body{
+    background-color:  darksalmon;
+	background: url(stena.jpg);
+}
+.foot{
+	border: 1px solid black;
+	background-color: #222222;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-radius: 5px;
+    padding: 10px; 
+    color: #9d9d9d;
+	text-align: center;	
+}
+.opisanie{
+	font-size: 35px;
+	font-weight: normal;
+	cursor: pointer;
+	text-shadow: 0 0 15px #999;
+	color: transparent;
+	transition: all 1s;
+	text-align: center;
+}
+.opisanie:hover {
+    text-shadow: 0 0 0 #333;
+    }
